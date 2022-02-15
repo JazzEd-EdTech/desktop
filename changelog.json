@@ -1,5 +1,74 @@
 {
   "releases": {
+    "2.9.7": [
+      "[Added] Support pushing workflow files for GitHub Actions to GitHub Enterprise Server - #13640",
+      "[Added] Support CLion as an external editor - #13739. Thanks @Pinzauti!",
+      "[Fixed] Don't show web flow committer on GitHub Enterprise Server - #13848",
+      "[Fixed] Cherry-pick success message always correctly reflects target branch - #13849",
+      "[Fixed] Fix error managing remotes under some circumstances - #13837",
+      "[Fixed] Add \"Copy Relative File Path\" option to changed files' context menu - #12589. Thanks @uttiya10!",
+      "[Fixed] Fix CLI tool on macOS Monterey - #13764. Thanks @spotlightishere!",
+      "[Fixed] Fix close button in full screen mode on macOS - #12838",
+      "[Fixed] Commit message dialog background styles match dialog - #13606",
+      "[Fixed] Ensure job steps on pull request check run list are always present - #13531",
+      "[Improved] Changes within lines are presented the same way in side-by-side and unified diffs - #13838",
+      "[Improved] Select integration tab automatically when changing default editor  - #13856. Thanks @uttiya10!",
+      "[Improved] The check runs list for pull requests with multiple branches displays all actions workflow steps and headers - #13868",
+      "[Improved] Check run group headers and checks stay in view while scrolling the sub checks or job steps. - #13532",
+      "[Improved] Take aliases into account when sorting repositories - #13429",
+      "[Improved] Support avatars on GitHub Enterprise Server - #13719",
+      "[Improved] Fetch before trying to follow a URL link to a specific branch - #13641. Thanks @Bestra!",
+      "[Improved] Add \"View on GitHub\" context menu option to repository list items - #13227. Thanks @lhvy!",
+      "[Improved] Signal when a commit summary is getting long - #2055. Thanks @Twixes!",
+      "[Improved] Remove unnecessary punctuation in appearance settings - #13715. Thanks @Pinzauti!"
+    ],
+    "2.9.7-beta3": [
+      "[Fixed] Don't show web flow committer on GitHub Enterprise Server - #13848",
+      "[Fixed] Cherry-pick success message always correctly reflects target branch - #13849",
+      "[Fixed] Fix error managing remotes under some circumstances - #13837",
+      "[Fixed] Add \"Copy Relative File Path\" option to changed files' context menu - #12589. Thanks @uttiya10!",
+      "[Improved] Changes within lines are presented the same way in side-by-side and unified modes - #13838",
+      "[Improved] Select integration tab automatically when changing default editor  - #13856. Thanks @uttiya10!",
+      "[Improved] The check runs list for pull requests with multiple branches displays all actions workflow steps and headers - #13868"
+    ],
+    "2.9.7-beta2": [
+      "[New] Initial support for system notifications when checks fail in Windows - #13655",
+      "[Fixed] Fix CLI tool on macOS Monterey - #13764. Thanks @spotlightishere!",
+      "[Improved] Upgrade to Electron v16.0.8 - #13814"
+    ],
+    "2.9.7-beta1": [
+      "[New] Initial support for system notifications when checks fail in macOS - #13655",
+      "[Added] Support pushing workflow files for GitHub Actions to GitHub Enterprise Server - #13640",
+      "[Added] Support CLion as an external editor - #13739. Thanks @Pinzauti!",
+      "[Fixed] Fix close button in full screen mode on macOS - #12838",
+      "[Fixed] Commit message dialog background styles match dialog - #13606",
+      "[Fixed] Ensure job steps on pull request check run list are always present - #13531",
+      "[Improved] Take alias into account when sorting repositories - #13429",
+      "[Improved] Upgrade to Electron v14.2.3 - #13689",
+      "[Improved] Support avatars on GitHub Enterprise Server - #13719",
+      "[Improved] Fetch before trying to follow a URL link to a specific branch - #13641. Thanks @Bestra!",
+      "[Improved] Add \"View on GitHub\" context menu option to repository list items - #13227. Thanks @lhvy!",
+      "[Improved] Signal when a commit summary is getting long - #2055. Thanks @Twixes!",
+      "[Improved] Check run group headers and checks stay in view while scrolling the sub checks or job steps. - #13532",
+      "[Improved] Remove unnecessary punctuation in appearance settings- #13715. Thanks @Pinzauti!"
+    ],
+    "2.9.6": [
+      "[Added] View and re-run the check runs for the checked out pull request.",
+      "[Fixed] Tooltip improvements and polish - #13452 #13449",
+      "[Fixed] Stashing dialog no longer hangs when initiating cherry-pick in some circumstances - #13419",
+      "[Fixed] Rebase no longer hangs after conflicts resolved when initiated through pull conflict error - #13204"
+    ],
+    "2.9.6-beta3": [
+      "[Fixed] Tooltip improvements and polish - #13452 #13449",
+      "[Improved] Add dynamic constraints for resizable components - #2745",
+      "[Improved] Remove re-run button for repositories that cannot re-run checks. - #13460"
+    ],
+    "2.9.6-beta2": [
+      "[Fixed] Stashing dialog no longer hangs when intiating cherry-pick - #13419",
+      "[Fixed] Rebase no longer hangs after conflicts resolved when intiated through pull conflict error - #13204",
+      "[Fixed] Discarding files and repositories successfully moves items to trash - #13433",
+      "[Improved] Added check runs overall completeness indicator in check run popover header - #13423"
+    ],
     "2.9.6-beta1": [
       "[Improved] Upgrade to Electron 13.6.2 - #12978",
       "[Improved] Allow amending pushed commits - #13384"
